@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header>
+        <div class="alert alert-info text-center mb-0 rounded-0 alert-dismissible fade show">
+            你好，欢迎进入我的Blog
+            <button class="close" data-dismiss="alert">&times;</button>
+        </div>
+
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand" href="javascript:">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="javascript:">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:">Link</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="javascript:" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="javascript:">Action</a>
+                                <a class="dropdown-item" href="javascript:">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" />
+                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="py-5">
+            <h2 class="text-center mb-5">框架简介</h2>
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-9">
+                        <h3>Vue 简介</h3>
+                        <p>
+                            Vue is a progressive framework for building user interfaces. Unlike other monolithic
+                            frameworks, Vue is
+                            designed from the ground up to be incrementally adoptable. The core library is focused on
+                            the view layer
+                            only, and is easy to pick up and integrate with other libraries or existing projects. On the
+                            other hand,
+                            Vue is also perfectly capable of powering sophisticated Single-Page Applications when used
+                            in
+                            combination with modern tooling and supporting libraries.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/vue.svg" />
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-9 order-md-1">
+                        <h3>React 简介</h3>
+                        <p>
+                            React has been designed from the start for gradual adoption, and you can use as little or as
+                            much React
+                            as you need. Whether you want to get a taste of React, add some interactivity to a simple
+                            HTML page, or
+                            start a complex React-powered app, the links in this section will help you get started.React
+                            makes it
+                            painless to create interactive UIs. Design simple views for each state in your application,
+                            and React
+                            will efficiently update and render just the right components when your data changes.
+                        </p>
+                    </div>
+                    <div class="col-md-3 order-md-0">
+                        <img src="./img/react.svg" />
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-9">
+                        <h3>Angular 简介</h3>
+                        <p>
+                            Angular：One framework. Mobile & desktop.Build features quickly with simple, declarative
+                            templates.
+                            Extend the template language with your own components and use a wide array of existing
+                            components. Get
+                            immediate Angular-specific help and feedback with nearly every IDE and editor. All this
+                            comes together
+                            so you can focus on building amazing apps rather than trying to make the code work
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./img/angular.svg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="text-center bg-light my-5 rounded-pill">
+        <div class="container">
+            <button class="btn my-3 btn-lg btn-outline-success btn-block">Enter</button>
+        </div>
+    </section>
+
+    <section class="bg-light text-center my-3">
+        <h2>今日计划</h2>
+        <div class="container">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>技术视频</th>
+                        <th>游戏视频</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>bootstrap入门</td>
+                        <td>手机游戏</td>
+                    </tr>
+                    <tr>
+                        <td>Vue入门</td>
+                        <td>电脑游戏</td>
+                    </tr>
+                    <tr>
+                        <td>React入门</td>
+                        <td>主机游戏</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <h2 class="text-center">NBA</h2>
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#east" class="nav-link active" data-toggle="tab">东部</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#west" class="nav-link" data-toggle="tab">西部</a>
+                </li>
+            </ul>
+
+            <div class="tab-content py-3">
+                <div id="east" class="tab-pane active">
+                    <p>
+                        东部冠军是
+                        <span class="font-weight-bold text-success" title="绿凯东部第一" data-toggle="tooltip"
+                            data-placement="top">凯尔特人</span>
+                        还是
+                        <span class="font-weight-bold text-danger" title="骑士输了，老詹没输" data-toggle="tooltip"
+                            data-placement="bottom">骑士</span>，不会是猛龙吧？
+                    </p>
+                </div>
+                <div id="west" class="tab-pane">
+                    <p>west</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light text-center py-3">
+        <a href="javascript:" class="btn btn-danger btn-lg">youtube</a>
+        <a href="javascript:" class="btn btn-outline-primary btn-lg">twitter</a>
+    </section>
+
+    <footer class="text-center text-muted py-3 bg-dark">
+        Copyright @Chan chan.com
+    </footer>
+    <script src="./lib/jquery-3.3.1.slim.min.js"></script>
+    <script src="./lib/popper.min.js"></script>
+    <script src="./lib/bootstrap.min.js"></script>
+    <script>
+        // $(() => {
+        $('[data-toggle="tooltip"]').tooltip();
+      // });
+    </script>
+</body>
+
+</html>
